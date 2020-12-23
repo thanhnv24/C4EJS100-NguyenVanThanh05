@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.luckyNumber {
+    width: auto;
+    text-align: center;
+}
+
+.luckyNumber h1 {
+    background-color: #222222;
+    color: #F5F5F5;
+    font-size: 70px;
+    height: 200px;
+    padding-top: 40px;
+}
+
+.content {
+    background-color: #D3D3D3;
+    padding: 50px;
+    height: 900px;
+    flex-wrap: wrap;
+}
+
+.content h3 {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.main {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.main .inputNumber {
+    width: 170px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 0px 15px 0px 0px;
+}
+
+.main .dials {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.showWord {
+    padding: 10px;
+}
+
+.dials:hover {
+    background-color: #00FF00;
+}
